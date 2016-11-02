@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+ul{
+	list-style: none;
+}
+.container.navbar{
+	background-color: #C0C0C0;
+}
+a.list-group-item:hover{
+	background-color: #C0C0C0;
+}
+a.btn.btn-default:hover{
+	background-color: #C0C0C0;
+}
